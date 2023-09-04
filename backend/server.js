@@ -11,7 +11,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cors({
-    origin: ["http://localhost:3000", "https://mern-task-app.onrender.com" ]
+    origin: ["http://localhost:3000", "https://mern-task-app-scop.onrender.com/" ]
 }));
 app.use("/api/tasks", taskRoutes);
 
